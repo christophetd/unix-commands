@@ -15,4 +15,5 @@ This is a (personal) list of some useful UNIX commands. Don't hesitate to submit
 ### Various 
 
 - `getconf _NPROCESSORS_ONLN`  : get the number of CPUs
-
+- `grep -ir '// todo'` : find all files in the current directory containing `// todo`, ignoring case
+- `find . -type f | wc -l` : find recursively the number of files in the current directory (excluding directories)
